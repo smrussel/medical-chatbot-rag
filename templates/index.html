@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Medical Chatbot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Varela+Round&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="{{ url_for('static', filename='assets/jquery-3.6.0.min.js')}}"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+	</head>
+	
+	<body>
+		<div class="header-area">
+			<h1>Medical Chatbot</h1>
+		</div>
+		
+		<div class="message-area" id="message-area">
+		</div>
+        
+		<div class="typing-area">
+			<textarea type="text" class="typing-box" id="typing-box" placeholder="Write Your Message Here"></textarea>
+		</div>
+	</body>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/chat.js')}}"></script>
+</html>
