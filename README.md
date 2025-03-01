@@ -49,7 +49,7 @@ Before running the application, create a `.env` file from `.env.sample` and you 
     * Langchain 
 
 
-## Gradio Chabot UI
+## Chabot UI
 
 ![Chat Example](chatbot.png)
 
